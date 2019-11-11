@@ -9,10 +9,10 @@ function searchForImage () {
   var request = new XMLHttpRequest()
 
   //Make a variable for the search term
-  var searchKey = 'hest'
+  var searchKey = '670000'
 
   //Prepare the request
-  request.open('GET', 'https://api.smk.dk/api/v1/art/search?keys=' + searchKey, true)
+  request.open('GET', 'https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcolors%3A%23' + searchKey + '%5D' , true)
 
   //This code will run when we get an answer to the request
   request.onload = function() {
