@@ -1,5 +1,5 @@
 //Calling the three example request below
-searchForImage()
+//searchForImage()
 getImagebyID()
 searchForArtist()
 
