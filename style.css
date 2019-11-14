@@ -1,8 +1,39 @@
 img {
   margin: 20px;
   max-width: 200px;
+  margin-left: 615px;
+  margin-top: 0px;
+  padding: ;
 }
 
 h2 {
   font-size: 1.2rem;
 }
+
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+body {
+  
+  
+  background: url('./Billeder/Baggrund.png') no-repeat center center fixed;
+  
+    background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+    -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+    -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+    -o-background-size: cover; /* for Opera 9.5 */
+    margin: 0; /* to remove the default white margin of body */
+    padding: 0; /* to remove the default white margin of body */
+    overflow: hidden;
+}
+
+button {
+  margin-left: 1030px;
+}
+
+.Knapper {
+  margin-top: 325px;
+}
+
