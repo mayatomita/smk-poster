@@ -69,7 +69,7 @@ function searchForImage (color) {
 }
 
 
-//Get a specific image based on its ID
+/*//Get a specific image based on its ID
 function getImagebyID() {
 
   //Make a variable for the request to the API of the type XMLHttpRequest
