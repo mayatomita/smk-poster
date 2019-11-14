@@ -58,18 +58,18 @@ function searchForImage (color) {
         //Put the new <img> element into the element with the ID "search images"
         document.getElementById("search-images").appendChild(img)
 
-    //If the request was not successful write error in the console
-    } else {
-      console.log('error')
+      //If the request was not successful write error in the console
+      } else {
+        console.log('error')
+      }
     }
   }
-
   //Send the request
   request.send()
 }
 
 
-/*//Get a specific image based on its ID
+//Get a specific image based on its ID
 function getImagebyID() {
 
   //Make a variable for the request to the API of the type XMLHttpRequest
