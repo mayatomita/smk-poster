@@ -3,16 +3,13 @@
 getImagebyID()
 searchForArtist()
 
-function searchForImage () {
+function searchForImage (color) {
 
   //Make a variable for the request to the API of the type XMLHttpRequest
   var request = new XMLHttpRequest()
 
-  //Make a variable for the search term
-  var searchKey = '670000'
-
   //Prepare the request
-  request.open('GET', 'https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcolors%3A%23' + searchKey + '%5D' , true)
+  request.open('GET', 'https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcolors%3A%23' + color + '%5D' , true)
 
   //This code will run when we get an answer to the request
   request.onload = function() {
@@ -26,13 +23,15 @@ function searchForImage () {
     if (request.status >= 200 && request.status < 400) {
 
     //Go through all the images and add them to an HTML IMG element
-    data.items.forEach(element => {
-      console.log(element.id)
+    var pictureLength = data.items.length
+    var randomIndex = Math.floor(Math.random() * pictureLength)
+    var picture = data.items[randomIndex]
 
-      var thumbnailUrl = element.image_thumbnail
+    var thumbnailUrl = picture.image_thumbnail
 
       //Check if there is an image related to work. If there isn't we skip it.
       if (thumbnailUrl != undefined){
+        document.getElementById("search-images").innerHTML = ''
         //Make an <img> element
         var img = document.createElement("IMG")
         //Put the thumbnail link into the source attribute so it becomes <img src="IMAGE_LINK">
@@ -40,7 +39,6 @@ function searchForImage () {
         //Put the new <img> element into the element with the ID "search images"
         document.getElementById("search-images").appendChild(img)
       }
-    })
 
     //If the request was not successful write error in the console
     } else {
