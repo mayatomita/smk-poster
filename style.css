@@ -51,11 +51,39 @@ float: left;
 }
 
 .buttonSort {
-  background-color: #555555;
+  background-color: black;
 }
 .buttonLilla {
   background-color:blueviolet;
 }
-.buttonLilla {
-  background-color:blueviolet;
+.buttonRød {
+  background-color: red;
+}
+
+.buttonGul {
+  background-color:yellow;
+}
+
+.buttonLyserød {
+  background-color: pink;
+}
+
+.buttonOrange {
+  background-color: orange;
+}
+
+.buttonGrøn {
+  background-color: green;
+}
+
+.buttonBlå {
+  background-color: blue;
+}
+
+.buttonGrå {
+  background-color: gray;
+}
+
+.buttonHvid {
+  background-color: white;
 }
