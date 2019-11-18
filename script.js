@@ -58,6 +58,18 @@ function searchForImage (color) {
         //Put the new <img> element into the element with the ID "search images"
         document.getElementById("search-images").appendChild(img)
 
+    var credit_line = picture.credit_line
+
+        //Check if there is an image related to work. If there isn't we skip it.
+        if (credit_line != undefined){
+          document.getElementById("search-images").innerHTML = ''
+          //Make an <img> element
+          var img = document.createElement("IMG")
+          //Put the thumbnail link into the source attribute so it becomes <img src="IMAGE_LINK">
+          img.src = credit_line
+          //Put the new <img> element into the element with the ID "search images"
+          document.getElementById("search-images").appendChild(img)
+
       //If the request was not successful write error in the console
       } else {
         console.log('error')
@@ -150,6 +162,9 @@ function getImagebyID() {
   //Send the request
   request.send()
 }
+
+
+
 
 function searchForArtist() {
 
