@@ -70,6 +70,10 @@ function searchForImage (color) {
 
 
 
+//acquisition_date_precision
+//credit_line
+//titles
+//Arti
 
 
 
