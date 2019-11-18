@@ -69,6 +69,22 @@ function searchForImage (color) {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Get a specific image based on its ID
 function getImagebyID() {
 
