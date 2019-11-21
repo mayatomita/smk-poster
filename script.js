@@ -63,7 +63,7 @@ function searchForImage (color) {
       console.log('error')
     }
   }
-
+}
   //Send the request
   request.send()
 }
