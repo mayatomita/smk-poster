@@ -1,8 +1,89 @@
-img {
-  margin: 20px;
-  max-width: 200px;
+#search-images {
+  width: 60%;
 }
 
-h2 {
-  font-size: 1.2rem;
+img {
+  margin: 0px;
+  max-width: 261px;
+  height: 360px;
+  overflow: hidden;
+  object-fit: cover;
+  margin-left: 589px;
+  margin-top: 195px;
+  padding: 0;
+  float: left;
+  position: absolute;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;  
+  background: url('./Billeder/Baggrund.png') no-repeat center center fixed;
+  
+    background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+    -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+    -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+    -o-background-size: cover; 
+    margin: 0; /* to remove the default white margin of body */
+    padding: 0; /* to remove the default white margin of body */
+    overflow: hidden;
+    position: absolute;
+}
+
+button {
+margin: 20px 20px 0px 0px;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+margin-right: auto;
+Margin-left:17px;
+float: left;
+
+}
+
+.Knapper {
+  height: 100%;
+  margin-left: 64%;
+  margin-right: 17%;
+  margin-top: 310px;
+  list-style-type: disc;
+}
+
+.buttonSort {
+  background-color: black;
+}
+.buttonLilla {
+  background-color:blueviolet;
+}
+.buttonRød {
+  background-color: red;
+}
+
+.buttonGul {
+  background-color:yellow;
+}
+
+.buttonLyserød {
+  background-color: pink;
+}
+
+.buttonOrange {
+  background-color: orange;
+}
+
+.buttonGrøn {
+  background-color: green;
+}
+
+.buttonBlå {
+  background-color: blue;
+}
+
+.buttonGrå {
+  background-color: gray;
+}
+
+.buttonHvid {
+  background-color: white;
 }

@@ -9,29 +9,45 @@
   </head>
 
   <body>
-    <div>
-      Remember to check out <a href="https://api.smk.dk/api/v1/docs">https://api.smk.dk/api/v1/docs</a> to see what options you have regarding the API.
-      Below are some examples.
-    </div>
     <div id="search-images">
-      <h2>Images returned by art search</h2>
+      <script type="text/javascript" src="script.js"></script>
     </div>
-    <div>
-      <button onclick="searchForImage('SORT')">tryk her</button>
-    </div>
-    <div>
-      <button onclick="searchForImage('ff0000')">tryk her</button>
-    </div>
+  
+    <div class="Knapper">
+      <div class >
+        <div>
+          <button onclick="searchForImage('SORT')" class="button buttonSort"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('LILLA')" class= "button buttonLilla"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('RØD')" class= "button buttonRød"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('GUL')" class= "button buttonGul"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('LYSERØD')" class= "button buttonLyserød"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('ORANGE')" class= "button buttonOrange"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('GRØN')"class= "button buttonGrøn"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('BLÅ')" class= "button buttonBlå"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('GRÅ')" class= "button buttonGrå"></button>
+        </div>
+        <div>
+          <button onclick="searchForImage('HVID')" class= "button buttonHvid"></button>
+        </div>
+      </div>
+  </div>
 
-
-    <div id="id-images">
-      <h2>Image returned by its ID</h2>
-    </div>
-
-    <div id="artist-images">
-      <h2>Number of works related to an artist</h2>
-    </div>
-
-    <script type="text/javascript" src="script.js"></script>
+    
   </body>
 </html>

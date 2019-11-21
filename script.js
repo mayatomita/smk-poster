@@ -58,15 +58,35 @@ function searchForImage (color) {
         //Put the new <img> element into the element with the ID "search images"
         document.getElementById("search-images").appendChild(img)
 
-    //If the request was not successful write error in the console
-    } else {
-      console.log('error')
+      //If the request was not successful write error in the console
+      } else {
+        console.log('error')
+      }
     }
   }
-}
   //Send the request
   request.send()
 }
+
+
+
+//acquisition_date_precision
+//credit_line
+//titles
+//Arti
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Get a specific image based on its ID
