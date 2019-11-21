@@ -1,5 +1,33 @@
+#title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 250px;
+  font-size: 20px;
+}
+
+#artist {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#production {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+}
+
+.info {
+  width: 40%;
+  float: left;
+  margin-top: 400px;
+  margin-left: 275px;
+  border-radius: 50%;
+}
+
+
+/*billed stying*/
 #search-images {
   width: 60%;
+  float: left;
 }
 
 img {
@@ -31,6 +59,11 @@ body {
     position: absolute;
 }
 
+
+
+
+
+/* Knapperne styling */
 button {
 margin: 20px 20px 0px 0px;
 border-radius: 50%;
@@ -46,7 +79,7 @@ float: left;
   height: 100%;
   margin-left: 64%;
   margin-right: 17%;
-  margin-top: 310px;
+  margin-top: 305px;
   list-style-type: disc;
 }
 
