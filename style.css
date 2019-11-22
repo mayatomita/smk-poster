@@ -16,10 +16,10 @@
 }
 
 .info {
-  width: 40%;
+  width: 35%;
   float: left;
-  margin-top: 400px;
-  margin-left: 275px;
+  margin-top: 415px;
+  margin-left: 280px;
   border-radius: 50%;
 }
 
@@ -37,7 +37,7 @@ img {
   overflow: hidden;
   object-fit: cover;
   margin-left: 589px;
-  margin-top: 195px;
+  margin-top: 214px;
   padding: 0;
   float: left;
   position: absolute;
@@ -47,7 +47,7 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;  
-  background: url('./Billeder/Baggrund.png') no-repeat center center fixed;
+  background: url('./Billeder/Baggrund1.jpg') no-repeat center center fixed;
   
     background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
     -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
@@ -119,4 +119,12 @@ float: left;
 
 .buttonHvid {
   background-color: white;
+}
+
+.buttonTurkis{
+  background-color: turquoise;
+}
+
+.buttonBaige{
+  background-color: beige;
 }

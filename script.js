@@ -1,16 +1,16 @@
 var colorMap = new Map()
 colorMap.set("LILLA", ["863B7A","670067","400572", "8B19E6", "CEA3F5", "9796FF"])
 colorMap.set("LYSERØD", ["FF75E9", "FF00FF","FFB6F3","FF96FF","FFB2BE"])
-colorMap.set("RØD", ["FF9897","820010","670000","FF1139","FF0000"])
-colorMap.set("ORANGE", ["713806","674200","E26F03","FFA600","F4C6A3"])
-colorMap.set("GUL", ["FFFF00","FFDC95","FFFF93"])
+colorMap.set("RØD", ["820010","670000","FF1139","FF0000"])
+colorMap.set("ORANGE", ["713806","674200","E26F03","FFA600"])
+colorMap.set("GUL", ["FFFF00","FFFF93"])
 colorMap.set("GRØN", ["666700","006700","00FF00","95FF95"])
-colorMap.set("BLÅ", ["037676","00FEFF","88FFFF","004F87","0097FF","7BC9FF","000068", "0000FF"])
+colorMap.set("BLÅ", ["88FFFF","004F87","0097FF","7BC9FF","000068", "0000FF"])
 colorMap.set("SORT", ["000000"])
 colorMap.set("GRÅ", ["555555","5A5A5A","9B9B9B","2D2D2D"])
 colorMap.set("HVID", ["FFFFFF"])
-
-
+colorMap.set("TURKIS", ["00FEFF","037676"])
+colorMap.set("BAIGE", ["F4C6A3","FF9897","FFDC95"])
 
 function searchForImage (color) {
 
