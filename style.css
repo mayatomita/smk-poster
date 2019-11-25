@@ -6,20 +6,20 @@
 
 #artist {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  font-size: 20px;
 }
 
 
 #production {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .info {
   width: 35%;
   float: left;
   margin-top: 415px;
-  margin-left: 280px;
+  margin-left: 265px;
   border-radius: 50%;
 }
 
@@ -47,7 +47,7 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;  
-  background: url('./Billeder/Baggrund1.jpg') no-repeat center center fixed;
+  background: url('./Billeder/Baggrund.png') no-repeat center center fixed;
   
     background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
     -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
@@ -77,9 +77,9 @@ float: left;
 
 .Knapper {
   height: 100%;
-  margin-left: 64%;
+  margin-left: 64.5%;
   margin-right: 17%;
-  margin-top: 305px;
+  margin-top: 320px;
   list-style-type: disc;
 }
 
