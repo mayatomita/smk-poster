@@ -47,7 +47,7 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;  
-  background: url('./Billeder/Baggrund.png') no-repeat center center fixed;
+  background: url('./Billeder/Baggrund1.png') no-repeat center center fixed;
   
     background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
     -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
@@ -79,7 +79,7 @@ float: left;
   height: 100%;
   margin-left: 64.5%;
   margin-right: 17%;
-  margin-top: 320px;
+  margin-top: 327px;
   list-style-type: disc;
 }
 
